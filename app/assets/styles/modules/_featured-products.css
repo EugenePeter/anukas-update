@@ -6,3 +6,36 @@
         }
     }
 }
+
+.trial {
+    color: #93583A;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+    
+    .wrap1 {
+
+        background-color: snow;
+        width: 45%;;
+        img {
+            width: 100%;
+        }
+    }
+    
+    .wrap2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        width: 40%;
+
+
+        
+        .content {
+            margin: 20px;     
+        }
+    }
+}
+

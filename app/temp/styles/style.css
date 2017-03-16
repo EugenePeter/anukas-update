@@ -625,12 +625,6 @@ a {
   margin-top: 40px;
 }
 
-.temp {
-    background-color: #93583A;
-}
-
-.temp p {}
-
 header {
     position: relative;
 
@@ -668,5 +662,48 @@ nav a {
 
 .featured-products .generic-img div:nth-of-type(4) {
   margin-right: 0;
+}
+
+.trial {
+    color: #93583A;
+    width: 100%;
+    
+    display: -webkit-box;
+    
+    display: -ms-flexbox;
+    
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.trial .wrap1 {
+  background-color: snow;
+  width: 45%;
+}
+
+.trial .wrap1 img {
+  width: 100%;
+}
+
+.trial .wrap2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 40%;
+}
+
+.trial .wrap2 .content {
+  margin: 20px;
 }
 
