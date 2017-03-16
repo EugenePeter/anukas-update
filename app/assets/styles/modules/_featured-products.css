@@ -1,0 +1,9 @@
+.featured-products {
+    background: blue;
+    
+    .generic-img {
+        div:nth-of-type(4) {
+            margin-right: 0;
+        }
+    }
+}

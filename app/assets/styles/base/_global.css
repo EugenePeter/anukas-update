@@ -1,0 +1,47 @@
+body {
+    font-family: 'Playfair Display', serif;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $mainOrange;
+}
+
+.generic-content-container {
+    max-width: 75%;
+    overflow: hidden;
+    
+    &--top-margin {
+        padding-top: 80px;
+    }
+}
+    
+
+.wrapper-center {
+    margin: 0 auto;
+}
+
+
+.generic-img {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    &--wrapper {
+        margin-right: 40px;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 40px;
+    }
+}
+

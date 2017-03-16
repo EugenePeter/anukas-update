@@ -1,0 +1,19 @@
+.generic-img {
+
+    &__wrapper:nth-of-type(3) {
+        margin-right: 0;
+    }
+      
+    .primary-image__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 260px;
+        font-weight: 300;
+        
+        .primary-image-second-col {
+            margin-top: 40px;
+
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.hero-section {
+
+    background-color: azure;
+    width: 100%;
+    height: 550px;
+   /* background-image:url(../../assets/images/anukas%20image.jpg); */
+  /*  background-image:url(../../assets/images/gold-banner.jpg); */
+    background-size: cover;
+    background-position: 0 -105px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+
+
+
+    
+    &__image {
+  
+        color: rgba(0, 0, 0, .6);
+        background-color: gray; 
+        
+        img {
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+            padding: 0;
+        }
+    }
+    
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image:url(../../assets/images/gold-banner.jpg); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    @mixin atSmallScreen {
+        background-size: 100%;
+    }
+
+    &__content-wrapper {
+        height: 550px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 100px;
+    }
+    
+    &__logo {
+        width: 250px;
+        height: 250px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    &__title {
+        margin: 20px;
+        border: solid 2px $mainOrange;
+        border-radius: 5px;
+        padding: 16px;
+    }
+
+}
+
