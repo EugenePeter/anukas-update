@@ -1,15 +1,25 @@
+.temp {
+    background-color: #93583A;
+    
+    p {
+    }
+}
+
 header {
+    position: relative;
 
     .header__btn {
         font-size: 40px;
         color: $mainOrange;
+        float: left;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
     }
 
 }
 
 nav {
-    
-
 
     ul {
         text-align: right;

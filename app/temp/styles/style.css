@@ -625,9 +625,25 @@ a {
   margin-top: 40px;
 }
 
+.temp {
+    background-color: #93583A;
+}
+
+.temp p {}
+
+header {
+    position: relative;
+
+}
+
 header .header__btn {
   font-size: 40px;
   color: #d59542;
+  float: left;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  position: absolute;
 }
 
 nav ul {
