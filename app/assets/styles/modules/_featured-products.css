@@ -1,24 +1,27 @@
 .featured-products {
     
+    &__text {
+        color: #A96D4F;
+        text-align: center;
+    }
     .generic-img {
         div:nth-of-type(4) {
             margin-right: 0;
         }
-    }
+    }  
 }
 
-.trial {
-    color: #93583A;
+.featured-products__container {
+ /*   color: #93583A; */
+    color: #A96D4F;
     width: 100%;
     
     display: flex;
     justify-content: center;
 
-    
     .wrap1 {
 
-        background-color: snow;
-        width: 45%;;
+        width: 50%;;
         img {
             width: 100%;
         }
@@ -29,13 +32,48 @@
         justify-content: center;
         align-items: center;
         flex-grow: 1;
-        width: 40%;
+        width: 50%;
+     /*   background-color: antiquewhite; */
+  
+    .content {
+        display: flex;
+        margin: 80px;
+        flex-direction: column;
 
+        h2 {
+            text-align: center;
+            font-weight: 300;
+            margin: 0;
+            padding: 0;
+        }
 
-        
-        .content {
-            margin: 20px;     
+        p {
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #A96D4F;
+            padding: 10px 40px;
+            border: 2px solid #A96D4F;
+            border-radius: 5px;
+            text-align: center;
+            margin: 0 auto;    
+            }
         }
     }
+}
+
+
+
+.bg {
+    opacity: .6;
+    background: peachpuff;
+    width: 100%;
+    height: 500px;
+    background-image:url(../../../assets/images/tanishq5.jpg); 
+    background-size: cover;
+    background-position: 0 -120px;
 }
 

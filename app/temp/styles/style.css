@@ -463,6 +463,7 @@ template {
 body {
     font-family: 'Playfair Display', serif;
     color: #333;
+    line-height: 1.45;
 }
 
 img {
@@ -548,6 +549,7 @@ a {
     position: relative;
     width: 100%;
     height: 500px;
+    opacity: .9;
     background-image:url(../../assets/images/gold-banner.jpg); 
     background-size: cover;
     background-position: center center;
@@ -660,12 +662,18 @@ nav a {
   font-weight: 500;
 }
 
+.featured-products__text {
+  color: #A96D4F;
+  text-align: center;
+}
+
 .featured-products .generic-img div:nth-of-type(4) {
   margin-right: 0;
 }
 
-.trial {
-    color: #93583A;
+.featured-products__container {
+ /*   color: #93583A; */
+    color: #A96D4F;
     width: 100%;
     
     display: -webkit-box;
@@ -678,16 +686,15 @@ nav a {
             justify-content: center;
 }
 
-.trial .wrap1 {
-  background-color: snow;
-  width: 45%;
+.featured-products__container .wrap1 {
+  width: 50%;
 }
 
-.trial .wrap1 img {
+.featured-products__container .wrap1 img {
   width: 100%;
 }
 
-.trial .wrap2 {
+.featured-products__container .wrap2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,10 +707,51 @@ nav a {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  width: 40%;
+  width: 50%;
 }
 
-.trial .wrap2 .content {
-  margin: 20px;
+/*   background-color: antiquewhite; */
+
+.featured-products__container .wrap2 .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.featured-products__container .wrap2 .content h2 {
+  text-align: center;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-products__container .wrap2 .content p {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.featured-products__container .wrap2 .content a {
+  text-decoration: none;
+  color: #A96D4F;
+  padding: 10px 40px;
+  border: 2px solid #A96D4F;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bg {
+    opacity: .6;
+    background: peachpuff;
+    width: 100%;
+    height: 500px;
+    background-image:url(../../../assets/images/tanishq5.jpg); 
+    background-size: cover;
+    background-position: 0 -120px;
 }
 
