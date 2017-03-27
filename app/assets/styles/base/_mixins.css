@@ -30,3 +30,8 @@
         display: table;
     }
 }
+
+@define-mixin heading {
+    font-weight: 200;
+    color: $mainTextColor;
+}

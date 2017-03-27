@@ -1,0 +1,23 @@
+.second-nav {
+    position: relative;
+
+    background: green;
+    
+    ul {
+        background: #3d3b3b;
+        text-align: right;
+        margin: 0;
+        padding: 0 50px 0 0;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+

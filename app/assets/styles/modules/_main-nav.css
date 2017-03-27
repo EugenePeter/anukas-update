@@ -15,11 +15,11 @@ header {
 }
 
 nav {
-
+    
     ul {
         text-align: right;
         margin: 0;
-        padding: 0;
+        padding: 0 50px 0 0;
     }
 
     li {
@@ -36,4 +36,6 @@ nav {
         font-weight: 500;
     }
 }
+
+
 
