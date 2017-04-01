@@ -21,6 +21,8 @@
         div:nth-of-type(4) {
             margin-right: 0;
         } 
+        
+        padding-bottom: 80px;
     }  
 }
 
@@ -81,6 +83,30 @@
         }
     }
 }
+
+
+.container {
+    max-width: 100%;  
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    
+    span {
+        margin: 0 20px;
+        flex-grow: 2;
+        font-size: 30px;
+        color: $mainTextColor;
+    }
+    
+    hr {
+        flex-basis: 100%;
+        border: 0;
+        
+        background: linear-gradient(to right, transparent, #818078, transparent);
+        height: 1px;
+    }
+}
+
 
 
 

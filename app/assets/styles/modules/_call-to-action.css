@@ -1,0 +1,47 @@
+.call-to-action-wrapper {
+    background-color: #f7f2ec;
+}
+
+.call-to-action-padding-t-b {
+    padding: 80px 0;
+}
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    
+    &__text {
+        padding-right: 40px;
+        flex-grow: 2;
+    }
+    
+    h2 {
+        margin: 0;
+        font-weight: 200;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    &__input {
+        margin: 0;
+        diplay: block;
+        flex-grow: 1;
+        text-align: right;
+        
+        input {
+            width: 80%;
+            padding: 5px 10px;
+            margin-bottom: 5px;
+        }
+        .cta-btn {
+            border: none;
+            padding: 10px;
+            width: 80%;
+            background: #FA856A;   
+            color: #444444;
+        }
+    }
+}

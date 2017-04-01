@@ -35,3 +35,8 @@
     font-weight: 200;
     color: $mainTextColor;
 }
+
+@define-mixin hr-heading {
+    font-weight: 200;
+    color: $mainTextColor;
+}
